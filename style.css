@@ -1,11 +1,14 @@
 body {
   font-family: Arial, sans-serif;
   text-align: center;
+  background-color: #ffe6f0; 
+  color: #4a0028;
 }
 
 nav {
-  background-color: #0B5369;
+  background-color: #cc3377; 
   padding: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 nav ul {
@@ -20,11 +23,23 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: #fff0f5; 
   text-decoration: none;
   font-weight: bold;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: #80ecf0;
+  color: #ffb6c1; 
+  text-shadow: 0 0 8px #ff80ab; 
+}
+
+h1 {
+  margin-top: 60px;
+  color: #b30059;
+}
+
+p {
+  font-size: 18px;
+  color: #660033;
 }
